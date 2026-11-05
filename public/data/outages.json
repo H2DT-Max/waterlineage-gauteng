@@ -1,0 +1,237 @@
+{
+  "schema_version": "2.4.0-verified",
+  "generated_at_sast": "2026-11-04T19:00:00+02:00",
+  "sync_timestamp_ms": 1793811600000,
+  "data_source": "Johannesburg Water & City of Johannesburg Official Reservoir Status Briefing (Nov 3\u20134, 2026)",
+  "source_urls": [
+    {
+      "title": "SAnews: Johannesburg Water Reservoir Status Briefing (Nov 3, 2026)",
+      "url": "https://www.sanews.gov.za/south-africa/johannesburg-water-supply-improving-says-morero"
+    },
+    {
+      "title": "Johannesburg Water: Daily Water Supply System Status Notices",
+      "url": "https://www.johannesburgwater.co.za/daily-water-notices/"
+    },
+    {
+      "title": "The Citizen: Joburg Water Outages & Level 1 Restrictions",
+      "url": "https://www.citizen.co.za/news/joburg-water-outages-affected-areas-and-new-restrictions-explained/"
+    }
+  ],
+  "citywide_summary": {
+    "overall_joburg_storage_pct": 41,
+    "previous_day_storage_pct": 37,
+    "restriction_level": "Level 1 Water Restrictions (Proposed 15% Demand Reduction; No daytime irrigation 06:00\u201318:00)",
+    "active_network_action": "Technical teams releasing trapped air from pipelines to clear airlocks restricting flow to high ridges; targeted pressure management active."
+  },
+  "reservoirs": {
+    "grand_central": {
+      "id": "grand_central",
+      "status": "critical_low",
+      "status_label": "CRITICAL LOW \u2014 TOWER PUMPING SUSPENDED",
+      "capacity_pct": 14,
+      "tower_pumping_active": false,
+      "valve_state": "TOWER PUMPING SUSPENDED / GRAVITY TRICKLE",
+      "verified_bulletin": "Grand Central Reservoir remains very low; pumping to the Grand Central Tower is suspended. High-lying ridges (Waterfall Heights, Bekker Rd, Halfway House) experience dry taps and 18h\u201324h airlock recovery lag.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 42
+    },
+    "erand": {
+      "id": "erand",
+      "status": "recovering_low",
+      "status_label": "RECOVERING (35%) \u2014 LOW INFLOWS",
+      "capacity_pct": 35,
+      "tower_pumping_active": true,
+      "valve_state": "OUTLET FULLY OPEN (LOW INFLOWS)",
+      "verified_bulletin": "Erand Reservoir is at ~35% capacity with its outlet fully open, improving supply to Kyalami, Noordwyk, and Vorna Valley lowlands, though bulk inflows from Palmiet remain constrained.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 19
+    },
+    "president_park": {
+      "id": "president_park",
+      "status": "moderate_strain",
+      "status_label": "RESERVOIR 67% \u2014 HIGH ZONE PRESSURE DIPS",
+      "capacity_pct": 67,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN \u2014 HIGH ZONES INTERMITTENT",
+      "verified_bulletin": "President Park Reservoir is at ~67%, but elevated zones in Ivory Park, Ebony Park, Allandale, and Kaalfontein continue to experience low pressure during peak draw-off.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 14
+    },
+    "diepsloot": {
+      "id": "diepsloot",
+      "status": "recovering_low",
+      "status_label": "CONSTRAINED (38%) \u2014 PRESSURE MANAGED",
+      "capacity_pct": 38,
+      "tower_pumping_active": true,
+      "valve_state": "THROTTLED OVERNIGHT",
+      "verified_bulletin": "Supply constrained by northern bulk demand; high-lying Diepsloot West experiences evening pressure drops.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 8
+    },
+    "rabie_ridge": {
+      "id": "rabie_ridge",
+      "status": "recovering_low",
+      "status_label": "LOW STORAGE (33%) \u2014 PALMIET STRAIN",
+      "capacity_pct": 33,
+      "tower_pumping_active": true,
+      "valve_state": "PRESSURE MANAGED",
+      "verified_bulletin": "Midrand system under high demand strain; upper Rabie Ridge experiences intermittent pressure during peak hours.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 11
+    },
+    "brixton": {
+      "id": "brixton",
+      "status": "normal",
+      "status_label": "BRIXTON 1 AT 91% / BRIXTON 2 AT 50%",
+      "capacity_pct": 71,
+      "tower_pumping_active": true,
+      "valve_state": "OUTLET FULLY OPEN (SUPPORTING COMMANDO)",
+      "verified_bulletin": "New Brixton 1 Reservoir is at ~91% with outlet fully open; Brixton 2 is at ~50%. Actively supporting neighbouring Hursthill and Crosby zones.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 6
+    },
+    "hursthill": {
+      "id": "hursthill",
+      "status": "critical_low",
+      "status_label": "CRITICAL \u2014 HURSTHILL 2 BYPASSED (22%)",
+      "capacity_pct": 22,
+      "tower_pumping_active": false,
+      "valve_state": "HURSTHILL 2 BYPASSED / INTERLINK OPEN",
+      "verified_bulletin": "Leaking Hursthill 2 remains bypassed for structural repairs; Hursthill 2 interlink opened further to feed Crosby, Brixton, and Hursthill. High ridges (Melville, Parktown West, Westbury) face severe airlocks and low pressure.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 64
+    },
+    "crosby": {
+      "id": "crosby",
+      "status": "recovering_low",
+      "status_label": "CONSTRAINED (29%) \u2014 INTERLINK ASSISTED",
+      "capacity_pct": 29,
+      "tower_pumping_active": false,
+      "valve_state": "INTERLINK RECHARGING",
+      "verified_bulletin": "Crosby Reservoir remains constrained under Commando system recovery; receiving supplemental flow via the Hursthill 2 interlink.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 23
+    },
+    "linden": {
+      "id": "linden",
+      "status": "recovering_low",
+      "status_label": "CONSTRAINED (34%) \u2014 RIDGE AIRLOCKS",
+      "capacity_pct": 34,
+      "tower_pumping_active": true,
+      "valve_state": "PRESSURE MANAGED",
+      "verified_bulletin": "Randburg system recovering gradually; high ridges in Robin Hills and Linden experience intermittent supply while airlocks are bled.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 17
+    },
+    "northcliff": {
+      "id": "northcliff",
+      "status": "recovering_low",
+      "status_label": "LOW STORAGE (31%) \u2014 SUMMIT LAG",
+      "capacity_pct": 31,
+      "tower_pumping_active": true,
+      "valve_state": "THROTTLED OVERNIGHT",
+      "verified_bulletin": "Northcliff system under pressure management; upper summit streets experience delayed recovery after nightly throttling.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 12
+    },
+    "honeydew": {
+      "id": "honeydew",
+      "status": "critical_low",
+      "status_label": "CRITICAL LOW (16%) \u2014 VERY LOW INFLOWS",
+      "capacity_pct": 16,
+      "tower_pumping_active": false,
+      "valve_state": "CRITICAL LOW INFLOWS \u2014 TEAM DEPLOYED",
+      "verified_bulletin": "Honeydew continues to experience very low inflows and reservoir levels despite slight overnight improvement. Sundowner, Northriding, and Northgate remain affected; Cosmo City Ext 0 throttling lifted.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 53
+    },
+    "morningside": {
+      "id": "morningside",
+      "status": "recovering_low",
+      "status_label": "SANDTON AT 37% \u2014 PUMP STATIONS ON BYPASS",
+      "capacity_pct": 37,
+      "tower_pumping_active": false,
+      "valve_state": "BRYANSTON & ILLOVO ON BYPASS",
+      "verified_bulletin": "Storage across Sandton systems improved overnight from 27% to 37%, but levels remain low. Bryanston and Illovo pumping stations are operating on bypass; high ridges remain under active management.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 28
+    },
+    "crown_gardens": {
+      "id": "crown_gardens",
+      "status": "normal",
+      "status_label": "FULL CAPACITY (100%) \u2014 NORMAL SUPPLY",
+      "capacity_pct": 100,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN \u2014 NORMAL SUPPLY",
+      "verified_bulletin": "Crown Gardens Reservoir and Tower are both at 100% capacity and supplying water normally; Meredale throttling lifted.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 1
+    },
+    "clifton_centurion": {
+      "id": "clifton_centurion",
+      "status": "moderate_strain",
+      "status_label": "MODERATE STRAIN (48%) \u2014 HIGH DEMAND",
+      "capacity_pct": 48,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN \u2014 PEAK DEMAND MANAGEMENT",
+      "verified_bulletin": "Tshwane Region 4 (Centurion) reservoirs under Rand Water consumption cap; high-lying ridges in The Reeds and Eldoraigne experience evening pressure drops.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 9
+    },
+    "garsfontein": {
+      "id": "garsfontein",
+      "status": "normal",
+      "status_label": "STABLE (62%) \u2014 NORMAL OPERATION",
+      "capacity_pct": 62,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN",
+      "verified_bulletin": "Garsfontein reservoir stable at 62%; Waterkloof Ridge upper streets monitored during peak evening draw-off.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 4
+    },
+    "bedfordview_ridge": {
+      "id": "bedfordview_ridge",
+      "status": "moderate_strain",
+      "status_label": "MODERATE (44%) \u2014 PALMIET RECOVERY",
+      "capacity_pct": 44,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN \u2014 PRESSURE REGULATED",
+      "verified_bulletin": "Bedfordview and Edenvale supply stabilizing following Palmiet booster pressure regulation; upper Kloof Rd ridge experiences slight pressure dip.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 7
+    },
+    "kempton_park": {
+      "id": "kempton_park",
+      "status": "normal",
+      "status_label": "STABLE (58%) \u2014 NORMAL SUPPLY",
+      "capacity_pct": 58,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN",
+      "verified_bulletin": "Kempton Park reservoir operating normally with steady inflows.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 3
+    },
+    "benoni": {
+      "id": "benoni",
+      "status": "moderate_strain",
+      "status_label": "MODERATE (46%) \u2014 MAPLETON FEED",
+      "capacity_pct": 46,
+      "tower_pumping_active": true,
+      "valve_state": "OPEN \u2014 NIGHTLY PRESSURE CONTROL",
+      "verified_bulletin": "Northmead and Benoni systems holding at 46%; minor low pressure on Northmead ridge during peak evening draw.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 5
+    },
+    "krugersdorp_ridge": {
+      "id": "krugersdorp_ridge",
+      "status": "recovering_low",
+      "status_label": "RECOVERING (39%) \u2014 EIKENHOF SPUR",
+      "capacity_pct": 39,
+      "tower_pumping_active": true,
+      "valve_state": "RECHARGING",
+      "verified_bulletin": "Mogale City high-lying Noordheuwel ridge recovering following Eikenhof pumping stabilization.",
+      "last_official_update": "2026-11-03 16:30 SAST",
+      "community_dry_reports_24h": 10
+    }
+  }
+}

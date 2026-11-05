@@ -1,0 +1,8 @@
+{
+  "name": "WaterLineage Gauteng \u2014 Elevation-Aware Water Outage Map",
+  "short_name": "WaterLineage",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#0ea5e9"
+}
