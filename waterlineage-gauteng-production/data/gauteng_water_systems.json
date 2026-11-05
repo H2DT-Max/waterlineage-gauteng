@@ -1,0 +1,1111 @@
+{
+  "version": "2.4.0-verified",
+  "last_updated": "2026-11-04T19:00:00+02:00",
+  "reservoirs": [
+    {
+      "id": "grand_central",
+      "name": "Grand Central Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Midrand",
+      "bulk_supplier": "Rand Water \u2014 Palmiet System (Zuikerbosch)",
+      "booster_station": "Palmiet Booster Pumping Station",
+      "base_elevation_m": 1599,
+      "tower_head_elevation_m": 1629,
+      "zone_floor_m": 1478,
+      "zone_crest_m": 1588,
+      "capacity_ml": 30.0,
+      "coordinates": {
+        "lat": -25.9892,
+        "lng": 28.1278
+      },
+      "radius_km": 4.8,
+      "tanker_points": [
+        "Vorna Valley Spar Parking Lot (Harry Galaun Dr)",
+        "Waterfall Heights / Bekker Rd Layby",
+        "Midrand Fire Station (New Rd)"
+      ],
+      "suburbs": [
+        {
+          "name": "Waterfall Heights (Bekker Rd, Vorna Valley)",
+          "suburb": "Vorna Valley",
+          "lat": -26.0118,
+          "lng": 28.1094,
+          "elevation_m": 1542,
+          "valley_ref_name": "Anton Hartman St (Jukskei Basin)",
+          "valley_ref_elev_m": 1482
+        },
+        {
+          "name": "Vorna Valley Ridge (Harry Galaun Dr)",
+          "suburb": "Vorna Valley",
+          "lat": -26.0085,
+          "lng": 28.1112,
+          "elevation_m": 1536,
+          "valley_ref_name": "Lowland Riverband (Vorna Valley)",
+          "valley_ref_elev_m": 1480
+        },
+        {
+          "name": "Vorna Valley Lowlands (Anton Hartman St)",
+          "suburb": "Vorna Valley",
+          "lat": -26.0025,
+          "lng": 28.1145,
+          "elevation_m": 1491,
+          "valley_ref_name": "Jukskei Valley Invert",
+          "valley_ref_elev_m": 1478
+        },
+        {
+          "name": "Halfway House CBD",
+          "suburb": "Halfway House",
+          "lat": -25.9964,
+          "lng": 28.1268,
+          "elevation_m": 1568,
+          "valley_ref_name": "Halfway Gardens Valley",
+          "valley_ref_elev_m": 1510
+        },
+        {
+          "name": "Halfway Gardens Ext 11",
+          "suburb": "Halfway Gardens",
+          "lat": -25.988,
+          "lng": 28.119,
+          "elevation_m": 1545,
+          "valley_ref_name": "Vorster Ave Lower",
+          "valley_ref_elev_m": 1502
+        },
+        {
+          "name": "Waterfall City / Polofields",
+          "suburb": "Waterfall",
+          "lat": -26.0235,
+          "lng": 28.103,
+          "elevation_m": 1524,
+          "valley_ref_name": "Jukskei Drift",
+          "valley_ref_elev_m": 1478
+        },
+        {
+          "name": "Randjespark Corporate",
+          "suburb": "Randjespark",
+          "lat": -25.972,
+          "lng": 28.136,
+          "elevation_m": 1552,
+          "valley_ref_name": "Oliphantsfontein Lower",
+          "valley_ref_elev_m": 1508
+        }
+      ]
+    },
+    {
+      "id": "erand",
+      "name": "Erand Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Midrand",
+      "bulk_supplier": "Rand Water \u2014 Palmiet System",
+      "booster_station": "Palmiet / Erand Booster Complex",
+      "base_elevation_m": 1585,
+      "tower_head_elevation_m": 1612,
+      "zone_floor_m": 1465,
+      "zone_crest_m": 1565,
+      "capacity_ml": 25.0,
+      "coordinates": {
+        "lat": -25.9735,
+        "lng": 28.112
+      },
+      "radius_km": 5.2,
+      "tanker_points": [
+        "San Ridge Square Shopping Centre",
+        "Carlswald Lifestyle Shopping Centre",
+        "Noordwyk Secondary School Gate"
+      ],
+      "suburbs": [
+        {
+          "name": "Noordwyk High Ridge (Lever Rd)",
+          "suburb": "Noordwyk",
+          "lat": -25.958,
+          "lng": 28.1095,
+          "elevation_m": 1551,
+          "valley_ref_name": "Olivenhoutbosch Stream Basin",
+          "valley_ref_elev_m": 1475
+        },
+        {
+          "name": "Carlswald Agricultural Holdings",
+          "suburb": "Carlswald",
+          "lat": -25.981,
+          "lng": 28.095,
+          "elevation_m": 1532,
+          "valley_ref_name": "Carlswald Creek",
+          "valley_ref_elev_m": 1480
+        },
+        {
+          "name": "Kyalami Hills / Estate",
+          "suburb": "Kyalami",
+          "lat": -25.989,
+          "lng": 28.078,
+          "elevation_m": 1495,
+          "valley_ref_name": "Kyalami Spruit",
+          "valley_ref_elev_m": 1465
+        },
+        {
+          "name": "Sagewood / Crescendo",
+          "suburb": "Sagewood",
+          "lat": -25.962,
+          "lng": 28.098,
+          "elevation_m": 1518,
+          "valley_ref_name": "Sagewood Lower",
+          "valley_ref_elev_m": 1482
+        },
+        {
+          "name": "Blue Hills Mall Precinct",
+          "suburb": "Blue Hills",
+          "lat": -25.951,
+          "lng": 28.089,
+          "elevation_m": 1504,
+          "valley_ref_name": "Blue Hills Lowland",
+          "valley_ref_elev_m": 1470
+        }
+      ]
+    },
+    {
+      "id": "president_park",
+      "name": "President Park Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Midrand",
+      "bulk_supplier": "Rand Water \u2014 Palmiet System",
+      "booster_station": "Palmiet Eastern Feeder",
+      "base_elevation_m": 1605,
+      "tower_head_elevation_m": 1630,
+      "zone_floor_m": 1505,
+      "zone_crest_m": 1592,
+      "capacity_ml": 22.0,
+      "coordinates": {
+        "lat": -25.994,
+        "lng": 28.158
+      },
+      "radius_km": 4.5,
+      "tanker_points": [
+        "Ivory Park North Clinic",
+        "Ebony Park Civic Centre",
+        "Kaalfontein Corner Shopping Centre"
+      ],
+      "suburbs": [
+        {
+          "name": "Ebony Park High Zone",
+          "suburb": "Ebony Park",
+          "lat": -26.001,
+          "lng": 28.175,
+          "elevation_m": 1580,
+          "valley_ref_name": "Kaalspruit Valley",
+          "valley_ref_elev_m": 1512
+        },
+        {
+          "name": "Ivory Park Ext 2",
+          "suburb": "Ivory Park",
+          "lat": -26.009,
+          "lng": 28.192,
+          "elevation_m": 1564,
+          "valley_ref_name": "Kaalspruit Lower",
+          "valley_ref_elev_m": 1508
+        },
+        {
+          "name": "President Park AH",
+          "suburb": "President Park",
+          "lat": -25.995,
+          "lng": 28.151,
+          "elevation_m": 1538,
+          "valley_ref_name": "President Park Lower",
+          "valley_ref_elev_m": 1505
+        },
+        {
+          "name": "Kaalfontein Ridge",
+          "suburb": "Kaalfontein",
+          "lat": -26.015,
+          "lng": 28.185,
+          "elevation_m": 1575,
+          "valley_ref_name": "Kaalspruit Basin",
+          "valley_ref_elev_m": 1510
+        }
+      ]
+    },
+    {
+      "id": "diepsloot",
+      "name": "Diepsloot Reservoir",
+      "metro": "City of Johannesburg",
+      "region": "Midrand / Fourways North",
+      "bulk_supplier": "Rand Water \u2014 Palmiet / Eikenhof Interlink",
+      "booster_station": "Diepsloot Bulk Tee",
+      "base_elevation_m": 1515,
+      "tower_head_elevation_m": 1515,
+      "zone_floor_m": 1395,
+      "zone_crest_m": 1495,
+      "capacity_ml": 18.0,
+      "coordinates": {
+        "lat": -25.933,
+        "lng": 28.012
+      },
+      "radius_km": 4.2,
+      "tanker_points": [
+        "Diepsloot Mall Taxi Rank",
+        "Riversands Incubation Hub Gate"
+      ],
+      "suburbs": [
+        {
+          "name": "Diepsloot West Ridge",
+          "suburb": "Diepsloot",
+          "lat": -25.931,
+          "lng": 28.005,
+          "elevation_m": 1482,
+          "valley_ref_name": "Jukskei River Bank",
+          "valley_ref_elev_m": 1398
+        },
+        {
+          "name": "Riversands Commercial",
+          "suburb": "Riversands",
+          "lat": -25.952,
+          "lng": 28.021,
+          "elevation_m": 1445,
+          "valley_ref_name": "Jukskei Floodplain",
+          "valley_ref_elev_m": 1402
+        },
+        {
+          "name": "Steyn City Crest",
+          "suburb": "Steyn City",
+          "lat": -25.969,
+          "lng": 28.015,
+          "elevation_m": 1475,
+          "valley_ref_name": "Jukskei Valley",
+          "valley_ref_elev_m": 1405
+        }
+      ]
+    },
+    {
+      "id": "rabie_ridge",
+      "name": "Rabie Ridge Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Midrand South",
+      "bulk_supplier": "Rand Water \u2014 Palmiet System",
+      "booster_station": "Modderfontein / Palmiet Spur",
+      "base_elevation_m": 1610,
+      "tower_head_elevation_m": 1635,
+      "zone_floor_m": 1520,
+      "zone_crest_m": 1602,
+      "capacity_ml": 15.0,
+      "coordinates": {
+        "lat": -26.018,
+        "lng": 28.165
+      },
+      "radius_km": 3.8,
+      "tanker_points": [
+        "Rabie Ridge Community Centre",
+        "Mayibuye Clinic Standpipe"
+      ],
+      "suburbs": [
+        {
+          "name": "Rabie Ridge Upper (Stilt Ave)",
+          "suburb": "Rabie Ridge",
+          "lat": -26.017,
+          "lng": 28.163,
+          "elevation_m": 1592,
+          "valley_ref_name": "Modderfontein Spruit",
+          "valley_ref_elev_m": 1522
+        },
+        {
+          "name": "Austin View",
+          "suburb": "Austin View",
+          "lat": -26.012,
+          "lng": 28.149,
+          "elevation_m": 1560,
+          "valley_ref_name": "Austin View Lower",
+          "valley_ref_elev_m": 1525
+        },
+        {
+          "name": "Mayibuye",
+          "suburb": "Mayibuye",
+          "lat": -26.024,
+          "lng": 28.172,
+          "elevation_m": 1548,
+          "valley_ref_name": "Mayibuye Valley",
+          "valley_ref_elev_m": 1520
+        }
+      ]
+    },
+    {
+      "id": "brixton",
+      "name": "Brixton 1 & 2 Reservoir & Tower (Commando)",
+      "metro": "City of Johannesburg",
+      "region": "Commando System (Central-West)",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof Pumping Station",
+      "booster_station": "Crosby / Brixton Twin Pump Station",
+      "base_elevation_m": 1765,
+      "tower_head_elevation_m": 1798,
+      "zone_floor_m": 1625,
+      "zone_crest_m": 1782,
+      "capacity_ml": 48.4,
+      "coordinates": {
+        "lat": -26.1915,
+        "lng": 28.0025
+      },
+      "radius_km": 4.2,
+      "tanker_points": [
+        "Helen Joseph Hospital Emergency Gate",
+        "Brixton Multipurpose Centre",
+        "UJ Kingsway Campus Gate 2"
+      ],
+      "suburbs": [
+        {
+          "name": "Brixton Ridge (High St / Putney Rd)",
+          "suburb": "Brixton",
+          "lat": -26.193,
+          "lng": 28.005,
+          "elevation_m": 1772,
+          "valley_ref_name": "Auckland Park Basin",
+          "valley_ref_elev_m": 1635
+        },
+        {
+          "name": "Auckland Park (Kingsway Lower)",
+          "suburb": "Auckland Park",
+          "lat": -26.182,
+          "lng": 28.001,
+          "elevation_m": 1652,
+          "valley_ref_name": "Braamfontein Spruit",
+          "valley_ref_elev_m": 1625
+        },
+        {
+          "name": "Mayfair West",
+          "suburb": "Mayfair",
+          "lat": -26.1985,
+          "lng": 28.008,
+          "elevation_m": 1718,
+          "valley_ref_name": "Fordsburg Dip",
+          "valley_ref_elev_m": 1660
+        },
+        {
+          "name": "Rossmore / UJ",
+          "suburb": "Rossmore",
+          "lat": -26.1865,
+          "lng": 27.998,
+          "elevation_m": 1735,
+          "valley_ref_name": "Auckland Park Lower",
+          "valley_ref_elev_m": 1635
+        }
+      ]
+    },
+    {
+      "id": "hursthill",
+      "name": "Hursthill 1 & 2 Reservoirs (Commando)",
+      "metro": "City of Johannesburg",
+      "region": "Commando System (West)",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof Pumping Station",
+      "booster_station": "Eikenhof \u2014 Commando Bulk Main",
+      "base_elevation_m": 1748,
+      "tower_head_elevation_m": 1748,
+      "zone_floor_m": 1605,
+      "zone_crest_m": 1738,
+      "capacity_ml": 45.0,
+      "coordinates": {
+        "lat": -26.185,
+        "lng": 27.979
+      },
+      "radius_km": 4.5,
+      "tanker_points": [
+        "Rahima Moosa Mother & Child Hospital",
+        "Melville 7th Street Spar",
+        "Parktown West / Greenside Borehole Point",
+        "Westbury Clinic"
+      ],
+      "suburbs": [
+        {
+          "name": "Melville Ridge (Koppies / 4th Ave)",
+          "suburb": "Melville",
+          "lat": -26.1765,
+          "lng": 28.0085,
+          "elevation_m": 1724,
+          "valley_ref_name": "Emmarentia Dam Basin",
+          "valley_ref_elev_m": 1612
+        },
+        {
+          "name": "Parktown West Ridge",
+          "suburb": "Parktown West",
+          "lat": -26.174,
+          "lng": 28.021,
+          "elevation_m": 1732,
+          "valley_ref_name": "Parkview Golf Course",
+          "valley_ref_elev_m": 1620
+        },
+        {
+          "name": "Westbury / Coronationville",
+          "suburb": "Westbury",
+          "lat": -26.1835,
+          "lng": 27.974,
+          "elevation_m": 1705,
+          "valley_ref_name": "Newclare Dip",
+          "valley_ref_elev_m": 1640
+        },
+        {
+          "name": "Greenside / Emmarentia Lowland",
+          "suburb": "Emmarentia",
+          "lat": -26.161,
+          "lng": 28.005,
+          "elevation_m": 1622,
+          "valley_ref_name": "Braamfontein Spruit",
+          "valley_ref_elev_m": 1605
+        },
+        {
+          "name": "Montgomery Park",
+          "suburb": "Montgomery Park",
+          "lat": -26.163,
+          "lng": 27.981,
+          "elevation_m": 1650,
+          "valley_ref_name": "Westdene Basin",
+          "valley_ref_elev_m": 1615
+        }
+      ]
+    },
+    {
+      "id": "crosby",
+      "name": "Crosby Reservoir (Commando)",
+      "metro": "City of Johannesburg",
+      "region": "Commando System",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof Pumping Station",
+      "booster_station": "Crosby Bulk Distribution Chamber",
+      "base_elevation_m": 1735,
+      "tower_head_elevation_m": 1735,
+      "zone_floor_m": 1640,
+      "zone_crest_m": 1725,
+      "capacity_ml": 28.0,
+      "coordinates": {
+        "lat": -26.1945,
+        "lng": 27.989
+      },
+      "radius_km": 3.2,
+      "tanker_points": [
+        "Crosby Shopping Centre",
+        "Garden City Clinic (Mayfair West)"
+      ],
+      "suburbs": [
+        {
+          "name": "Crosby Upper",
+          "suburb": "Crosby",
+          "lat": -26.195,
+          "lng": 27.991,
+          "elevation_m": 1712,
+          "valley_ref_name": "Industria Lowland",
+          "valley_ref_elev_m": 1645
+        },
+        {
+          "name": "Langlaagte North",
+          "suburb": "Langlaagte",
+          "lat": -26.202,
+          "lng": 27.986,
+          "elevation_m": 1682,
+          "valley_ref_name": "Langlaagte Basin",
+          "valley_ref_elev_m": 1640
+        },
+        {
+          "name": "homestead Park",
+          "suburb": "Homestead Park",
+          "lat": -26.206,
+          "lng": 27.995,
+          "elevation_m": 1695,
+          "valley_ref_name": "Amalgam Valley",
+          "valley_ref_elev_m": 1648
+        }
+      ]
+    },
+    {
+      "id": "linden",
+      "name": "Linden 1 & 2 Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Randburg",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof System",
+      "booster_station": "Linden High-Lift Booster",
+      "base_elevation_m": 1695,
+      "tower_head_elevation_m": 1722,
+      "zone_floor_m": 1530,
+      "zone_crest_m": 1685,
+      "capacity_ml": 32.0,
+      "coordinates": {
+        "lat": -26.135,
+        "lng": 27.993
+      },
+      "radius_km": 5.0,
+      "tanker_points": [
+        "Cresta Shopping Centre Overflow Lot",
+        "Linden Police Station",
+        "Ferndale on Republic"
+      ],
+      "suburbs": [
+        {
+          "name": "Linden Crest (3rd Ave / 7th St)",
+          "suburb": "Linden",
+          "lat": -26.136,
+          "lng": 27.994,
+          "elevation_m": 1672,
+          "valley_ref_name": "Delta Park Basin",
+          "valley_ref_elev_m": 1545
+        },
+        {
+          "name": "Robin Hills Ridge",
+          "suburb": "Robin Hills",
+          "lat": -26.122,
+          "lng": 27.979,
+          "elevation_m": 1658,
+          "valley_ref_name": "Klein Jukskei River",
+          "valley_ref_elev_m": 1535
+        },
+        {
+          "name": "Blairgowrie (Delta Basin)",
+          "suburb": "Blairgowrie",
+          "lat": -26.119,
+          "lng": 28.009,
+          "elevation_m": 1562,
+          "valley_ref_name": "Braamfontein Spruit",
+          "valley_ref_elev_m": 1530
+        },
+        {
+          "name": "Ferndale Lower",
+          "suburb": "Ferndale",
+          "lat": -26.094,
+          "lng": 27.991,
+          "elevation_m": 1548,
+          "valley_ref_name": "Klein Jukskei Invert",
+          "valley_ref_elev_m": 1530
+        }
+      ]
+    },
+    {
+      "id": "northcliff",
+      "name": "Northcliff Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Northcliff / Roodepoort East",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof System",
+      "booster_station": "Northcliff High-Head Booster",
+      "base_elevation_m": 1795,
+      "tower_head_elevation_m": 1825,
+      "zone_floor_m": 1575,
+      "zone_crest_m": 1805,
+      "capacity_ml": 24.0,
+      "coordinates": {
+        "lat": -26.151,
+        "lng": 27.959
+      },
+      "radius_km": 4.5,
+      "tanker_points": [
+        "Northcliff Corner Shopping Centre",
+        "Fairland Walk Parking"
+      ],
+      "suburbs": [
+        {
+          "name": "Northcliff Hill Summit (Rockclyffe Dr)",
+          "suburb": "Northcliff",
+          "lat": -26.152,
+          "lng": 27.961,
+          "elevation_m": 1788,
+          "valley_ref_name": "Fairland Spruit",
+          "valley_ref_elev_m": 1580
+        },
+        {
+          "name": "Bergbron",
+          "suburb": "Bergbron",
+          "lat": -26.165,
+          "lng": 27.951,
+          "elevation_m": 1695,
+          "valley_ref_name": "Florida Lake Basin",
+          "valley_ref_elev_m": 1595
+        },
+        {
+          "name": "Fairland Lowland",
+          "suburb": "Fairland",
+          "lat": -26.138,
+          "lng": 27.945,
+          "elevation_m": 1598,
+          "valley_ref_name": "Fairland Creek",
+          "valley_ref_elev_m": 1575
+        }
+      ]
+    },
+    {
+      "id": "honeydew",
+      "name": "Honeydew Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Randburg West / Roodepoort North",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof System",
+      "booster_station": "Weltevreden / Honeydew Feed",
+      "base_elevation_m": 1625,
+      "tower_head_elevation_m": 1650,
+      "zone_floor_m": 1455,
+      "zone_crest_m": 1615,
+      "capacity_ml": 35.0,
+      "coordinates": {
+        "lat": -26.071,
+        "lng": 27.925
+      },
+      "radius_km": 6.0,
+      "tanker_points": [
+        "Northgate Shopping Centre Entrance 4",
+        "Sundowner Blueberry Square",
+        "Cosmo City Ext 0 Fire Station"
+      ],
+      "suburbs": [
+        {
+          "name": "Sundowner Ridge",
+          "suburb": "Sundowner",
+          "lat": -26.068,
+          "lng": 27.945,
+          "elevation_m": 1592,
+          "valley_ref_name": "Klein Jukskei Basin",
+          "valley_ref_elev_m": 1465
+        },
+        {
+          "name": "Northriding High Zone",
+          "suburb": "Northriding",
+          "lat": -26.049,
+          "lng": 27.955,
+          "elevation_m": 1568,
+          "valley_ref_name": "Olievenhoutpoort Creek",
+          "valley_ref_elev_m": 1460
+        },
+        {
+          "name": "Randpark Ridge",
+          "suburb": "Randpark Ridge",
+          "lat": -26.098,
+          "lng": 27.949,
+          "elevation_m": 1604,
+          "valley_ref_name": "Boskruin Dip",
+          "valley_ref_elev_m": 1510
+        },
+        {
+          "name": "Cosmo City Ext 0",
+          "suburb": "Cosmo City",
+          "lat": -26.019,
+          "lng": 27.928,
+          "elevation_m": 1488,
+          "valley_ref_name": "Rietspruit Lower",
+          "valley_ref_elev_m": 1455
+        }
+      ]
+    },
+    {
+      "id": "morningside",
+      "name": "Morningside / Bryanston Sandton System",
+      "metro": "City of Johannesburg",
+      "region": "Sandton",
+      "bulk_supplier": "Rand Water \u2014 Palmiet System",
+      "booster_station": "Illovo & Bryanston Booster Stations",
+      "base_elevation_m": 1645,
+      "tower_head_elevation_m": 1675,
+      "zone_floor_m": 1460,
+      "zone_crest_m": 1655,
+      "capacity_ml": 42.0,
+      "coordinates": {
+        "lat": -26.078,
+        "lng": 28.055
+      },
+      "radius_km": 5.5,
+      "tanker_points": [
+        "Morningside Shopping Centre",
+        "Bryanston Shopping Centre (Ballyclare Dr)",
+        "Sandton Fire Station (Grayston Dr)"
+      ],
+      "suburbs": [
+        {
+          "name": "Bryanston Ridge (Eccleston Cres)",
+          "suburb": "Bryanston",
+          "lat": -26.058,
+          "lng": 28.022,
+          "elevation_m": 1642,
+          "valley_ref_name": "Riverclub Jukskei Floor",
+          "valley_ref_elev_m": 1468
+        },
+        {
+          "name": "Sandton CBD Crest (Rivonia Rd)",
+          "suburb": "Sandton",
+          "lat": -26.107,
+          "lng": 28.056,
+          "elevation_m": 1618,
+          "valley_ref_name": "Sandspruit Basin",
+          "valley_ref_elev_m": 1485
+        },
+        {
+          "name": "Morningside Manor (Sandspruit Valley)",
+          "suburb": "Morningside",
+          "lat": -26.069,
+          "lng": 28.072,
+          "elevation_m": 1492,
+          "valley_ref_name": "Sandspruit Invert",
+          "valley_ref_elev_m": 1460
+        },
+        {
+          "name": "Illovo Ridge",
+          "suburb": "Illovo",
+          "lat": -26.129,
+          "lng": 28.049,
+          "elevation_m": 1625,
+          "valley_ref_name": "Wanderers Valley",
+          "valley_ref_elev_m": 1540
+        },
+        {
+          "name": "Rivonia (Wessel Rd)",
+          "suburb": "Rivonia",
+          "lat": -26.049,
+          "lng": 28.059,
+          "elevation_m": 1515,
+          "valley_ref_name": "Braamfontein Spruit North",
+          "valley_ref_elev_m": 1462
+        }
+      ]
+    },
+    {
+      "id": "crown_gardens",
+      "name": "Crown Gardens Reservoir & Tower",
+      "metro": "City of Johannesburg",
+      "region": "Joburg South / Meredale",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof / Zwartkopjes",
+      "booster_station": "Meredale / Zwartkopjes Pump Station",
+      "base_elevation_m": 1755,
+      "tower_head_elevation_m": 1785,
+      "zone_floor_m": 1640,
+      "zone_crest_m": 1765,
+      "capacity_ml": 38.0,
+      "coordinates": {
+        "lat": -26.238,
+        "lng": 28.015
+      },
+      "radius_km": 4.8,
+      "tanker_points": [
+        "Southgate Mall Entrance 2",
+        "Crown Gardens Clinic"
+      ],
+      "suburbs": [
+        {
+          "name": "Ridgeway / Winchester Hills Crest",
+          "suburb": "Winchester Hills",
+          "lat": -26.262,
+          "lng": 28.012,
+          "elevation_m": 1752,
+          "valley_ref_name": "Klipspruit Basin",
+          "valley_ref_elev_m": 1642
+        },
+        {
+          "name": "Crown Gardens",
+          "suburb": "Crown Gardens",
+          "lat": -26.239,
+          "lng": 28.016,
+          "elevation_m": 1715,
+          "valley_ref_name": "Booysens Lowland",
+          "valley_ref_elev_m": 1655
+        },
+        {
+          "name": "Robertsham",
+          "suburb": "Robertsham",
+          "lat": -26.245,
+          "lng": 28.004,
+          "elevation_m": 1678,
+          "valley_ref_name": "Ophirton Basin",
+          "valley_ref_elev_m": 1645
+        },
+        {
+          "name": "Ormonde",
+          "suburb": "Ormonde",
+          "lat": -26.248,
+          "lng": 27.992,
+          "elevation_m": 1665,
+          "valley_ref_name": "Nasrec Stream",
+          "valley_ref_elev_m": 1640
+        }
+      ]
+    },
+    {
+      "id": "clifton_centurion",
+      "name": "Clifton Reservoir (Centurion)",
+      "metro": "City of Tshwane",
+      "region": "Centurion",
+      "bulk_supplier": "Rand Water \u2014 Palmiet / Brakfontein Bulk",
+      "booster_station": "Brakfontein Booster Station",
+      "base_elevation_m": 1545,
+      "tower_head_elevation_m": 1572,
+      "zone_floor_m": 1390,
+      "zone_crest_m": 1538,
+      "capacity_ml": 40.0,
+      "coordinates": {
+        "lat": -25.864,
+        "lng": 28.165
+      },
+      "radius_km": 6.0,
+      "tanker_points": [
+        "Centurion Mall Hypermarket Lot",
+        "Mall@Reds Rooihuiskraal",
+        "Lyttelton Municipal Offices"
+      ],
+      "suburbs": [
+        {
+          "name": "Thatchfield / The Reeds Ridge",
+          "suburb": "The Reeds",
+          "lat": -25.899,
+          "lng": 28.132,
+          "elevation_m": 1518,
+          "valley_ref_name": "Hennops River Basin",
+          "valley_ref_elev_m": 1395
+        },
+        {
+          "name": "Rooihuiskraal North",
+          "suburb": "Rooihuiskraal",
+          "lat": -25.885,
+          "lng": 28.151,
+          "elevation_m": 1485,
+          "valley_ref_name": "Hennops Floodplain",
+          "valley_ref_elev_m": 1392
+        },
+        {
+          "name": "Centurion CBD (Hennops Lowland)",
+          "suburb": "Centurion Central",
+          "lat": -25.858,
+          "lng": 28.189,
+          "elevation_m": 1412,
+          "valley_ref_name": "Centurion Lake Invert",
+          "valley_ref_elev_m": 1390
+        },
+        {
+          "name": "Eldoraigne High Zone",
+          "suburb": "Eldoraigne",
+          "lat": -25.845,
+          "lng": 28.152,
+          "elevation_m": 1512,
+          "valley_ref_name": "Zwartkop Lower",
+          "valley_ref_elev_m": 1405
+        }
+      ]
+    },
+    {
+      "id": "garsfontein",
+      "name": "Garsfontein Mega Reservoir",
+      "metro": "City of Tshwane",
+      "region": "Pretoria East",
+      "bulk_supplier": "Rand Water \u2014 Palmiet / Mapleton",
+      "booster_station": "Vlakfontein \u2014 Garsfontein Pipeline",
+      "base_elevation_m": 1535,
+      "tower_head_elevation_m": 1560,
+      "zone_floor_m": 1365,
+      "zone_crest_m": 1525,
+      "capacity_ml": 60.0,
+      "coordinates": {
+        "lat": -25.798,
+        "lng": 28.301
+      },
+      "radius_km": 5.8,
+      "tanker_points": [
+        "Menlyn Park Shopping Centre",
+        "Woodlands Boulevard Gate 1"
+      ],
+      "suburbs": [
+        {
+          "name": "Waterkloof Ridge Summit",
+          "suburb": "Waterkloof Ridge",
+          "lat": -25.805,
+          "lng": 28.248,
+          "elevation_m": 1518,
+          "valley_ref_name": "Moreleta Spruit",
+          "valley_ref_elev_m": 1370
+        },
+        {
+          "name": "Garsfontein Ext 8",
+          "suburb": "Garsfontein",
+          "lat": -25.796,
+          "lng": 28.298,
+          "elevation_m": 1445,
+          "valley_ref_name": "Moreleta Spruit Floor",
+          "valley_ref_elev_m": 1368
+        },
+        {
+          "name": "Faerie Glen Lowland",
+          "suburb": "Faerie Glen",
+          "lat": -25.775,
+          "lng": 28.315,
+          "elevation_m": 1388,
+          "valley_ref_name": "Pienaars River Basin",
+          "valley_ref_elev_m": 1365
+        },
+        {
+          "name": "Moreleta Park Ridge",
+          "suburb": "Moreleta Park",
+          "lat": -25.825,
+          "lng": 28.308,
+          "elevation_m": 1502,
+          "valley_ref_name": "Moreleta Spruit",
+          "valley_ref_elev_m": 1375
+        }
+      ]
+    },
+    {
+      "id": "bedfordview_ridge",
+      "name": "Bedfordview Ridge & Gillooly's System",
+      "metro": "City of Ekurhuleni",
+      "region": "Edenvale / Bedfordview",
+      "bulk_supplier": "Rand Water \u2014 Palmiet / Mapleton",
+      "booster_station": "riester / Bedfordview Booster",
+      "base_elevation_m": 1740,
+      "tower_head_elevation_m": 1765,
+      "zone_floor_m": 1580,
+      "zone_crest_m": 1735,
+      "capacity_ml": 30.0,
+      "coordinates": {
+        "lat": -26.185,
+        "lng": 28.138
+      },
+      "radius_km": 4.5,
+      "tanker_points": [
+        "Eastgate Shopping Centre",
+        "Greenstone Shopping Centre"
+      ],
+      "suburbs": [
+        {
+          "name": "Bedfordview Crest (Kloof Rd)",
+          "suburb": "Bedfordview",
+          "lat": -26.188,
+          "lng": 28.135,
+          "elevation_m": 1722,
+          "valley_ref_name": "Jukskei Gillooly Basin",
+          "valley_ref_elev_m": 1585
+        },
+        {
+          "name": "Edenvale Central",
+          "suburb": "Edenvale",
+          "lat": -26.141,
+          "lng": 28.152,
+          "elevation_m": 1618,
+          "valley_ref_name": "Illiondale Wetland",
+          "valley_ref_elev_m": 1580
+        },
+        {
+          "name": "Greenstone Hill",
+          "suburb": "Greenstone Hill",
+          "lat": -26.122,
+          "lng": 28.141,
+          "elevation_m": 1645,
+          "valley_ref_name": "Modderfontein Valley",
+          "valley_ref_elev_m": 1582
+        }
+      ]
+    },
+    {
+      "id": "kempton_park",
+      "name": "Kempton Park / Isando Reservoir System",
+      "metro": "City of Ekurhuleni",
+      "region": "Kempton Park",
+      "bulk_supplier": "Rand Water \u2014 Palmiet / Mapleton",
+      "booster_station": "Hlapane / Kempton Booster",
+      "base_elevation_m": 1675,
+      "tower_head_elevation_m": 1702,
+      "zone_floor_m": 1560,
+      "zone_crest_m": 1668,
+      "capacity_ml": 36.0,
+      "coordinates": {
+        "lat": -26.101,
+        "lng": 28.232
+      },
+      "radius_km": 5.5,
+      "tanker_points": [
+        "Festival Mall Kempton Park",
+        "Glen Acres Shopping Centre"
+      ],
+      "suburbs": [
+        {
+          "name": "Glen Marais High Zone",
+          "suburb": "Glen Marais",
+          "lat": -26.078,
+          "lng": 28.248,
+          "elevation_m": 1648,
+          "valley_ref_name": "Blaauwpan Basin",
+          "valley_ref_elev_m": 1565
+        },
+        {
+          "name": "Birchleigh",
+          "suburb": "Birchleigh",
+          "lat": -26.062,
+          "lng": 28.218,
+          "elevation_m": 1612,
+          "valley_ref_name": "Kaalspruit East",
+          "valley_ref_elev_m": 1560
+        }
+      ]
+    },
+    {
+      "id": "benoni",
+      "name": "Benoni / Northmead Reservoir & Tower",
+      "metro": "City of Ekurhuleni",
+      "region": "Benoni",
+      "bulk_supplier": "Rand Water \u2014 Mapleton System",
+      "booster_station": "Mapleton Bulk Feeder",
+      "base_elevation_m": 1680,
+      "tower_head_elevation_m": 1705,
+      "zone_floor_m": 1590,
+      "zone_crest_m": 1672,
+      "capacity_ml": 32.0,
+      "coordinates": {
+        "lat": -26.168,
+        "lng": 28.318
+      },
+      "radius_km": 5.0,
+      "tanker_points": [
+        "Northmead Square",
+        "Lakeside Mall Civic Standpipe"
+      ],
+      "suburbs": [
+        {
+          "name": "Northmead Ridge",
+          "suburb": "Northmead",
+          "lat": -26.165,
+          "lng": 28.321,
+          "elevation_m": 1662,
+          "valley_ref_name": "Benoni Lake Pan",
+          "valley_ref_elev_m": 1592
+        },
+        {
+          "name": "Rynfield",
+          "suburb": "Rynfield",
+          "lat": -26.148,
+          "lng": 28.345,
+          "elevation_m": 1630,
+          "valley_ref_name": "Homestead Dam",
+          "valley_ref_elev_m": 1590
+        }
+      ]
+    },
+    {
+      "id": "krugersdorp_ridge",
+      "name": "Krugersdorp / Kenmare Ridge Reservoir",
+      "metro": "Mogale City (West Rand)",
+      "region": "West Rand",
+      "bulk_supplier": "Rand Water \u2014 Eikenhof System",
+      "booster_station": "Eikenhof Western Spur",
+      "base_elevation_m": 1785,
+      "tower_head_elevation_m": 1810,
+      "zone_floor_m": 1630,
+      "zone_crest_m": 1775,
+      "capacity_ml": 28.0,
+      "coordinates": {
+        "lat": -26.105,
+        "lng": 27.802
+      },
+      "radius_km": 5.2,
+      "tanker_points": [
+        "Cradlestone Mall",
+        "Key West Shopping Centre"
+      ],
+      "suburbs": [
+        {
+          "name": "Noordheuwel / Kenmare Crest",
+          "suburb": "Noordheuwel",
+          "lat": -26.089,
+          "lng": 27.812,
+          "elevation_m": 1762,
+          "valley_ref_name": "Muldersdrift Spruit",
+          "valley_ref_elev_m": 1635
+        },
+        {
+          "name": "Krugersdorp CBD",
+          "suburb": "Krugersdorp",
+          "lat": -26.102,
+          "lng": 27.775,
+          "elevation_m": 1685,
+          "valley_ref_name": "Krugersdorp Basin",
+          "valley_ref_elev_m": 1630
+        }
+      ]
+    }
+  ]
+}
