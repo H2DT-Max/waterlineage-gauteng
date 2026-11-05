@@ -1,0 +1,7 @@
+/data/outages.json
+  Cache-Control: no-cache, no-store, must-revalidate
+  Access-Control-Allow-Origin: *
+
+/data/gauteng_water_systems.json
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
